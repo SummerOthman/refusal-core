@@ -1,0 +1,54 @@
+{
+    "scenarios": [
+        {
+            "id": "high_civilian_risk",
+            "timestamp": "2024-03-15T10:00:00Z",
+            "target_type": "military",
+            "civilian_risk_score": 0.75,
+            "human_operator_confirmation": true,
+            "target_confidence": 0.95,
+            "location_type": "urban",
+            "additional_notes": "Target in densely populated area"
+        },
+        {
+            "id": "protected_target",
+            "timestamp": "2024-03-15T10:15:00Z",
+            "target_type": "medical",
+            "civilian_risk_score": 0.1,
+            "human_operator_confirmation": true,
+            "target_confidence": 0.99,
+            "location_type": "urban",
+            "additional_notes": "Medical facility - protected category"
+        },
+        {
+            "id": "no_human_confirmation",
+            "timestamp": "2024-03-15T10:30:00Z",
+            "target_type": "military",
+            "civilian_risk_score": 0.1,
+            "human_operator_confirmation": false,
+            "target_confidence": 0.95,
+            "location_type": "industrial",
+            "additional_notes": "Missing human confirmation"
+        },
+        {
+            "id": "low_confidence",
+            "timestamp": "2024-03-15T10:45:00Z",
+            "target_type": "military",
+            "civilian_risk_score": 0.1,
+            "human_operator_confirmation": true,
+            "target_confidence": 0.6,
+            "location_type": "rural",
+            "additional_notes": "Low confidence in target identification"
+        },
+        {
+            "id": "valid_target",
+            "timestamp": "2024-03-15T11:00:00Z",
+            "target_type": "military",
+            "civilian_risk_score": 0.1,
+            "human_operator_confirmation": true,
+            "target_confidence": 0.95,
+            "location_type": "military",
+            "additional_notes": "All criteria satisfied"
+        }
+    ]
+} 

@@ -1,0 +1,6 @@
+click==8.1.7
+pytest==7.4.3
+python-dateutil==2.8.2
+rich==13.7.0
+pydantic==2.5.2
+loguru==0.7.2 
